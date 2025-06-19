@@ -14,6 +14,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+
 import com.example.greetingkmp.Greeting
 
 class MainActivity : ComponentActivity() {
@@ -47,7 +48,7 @@ fun App() {
         ) {
             greeting.forEach { greeting ->
                 Text(greeting)
-//                HorizontalDivider()
+                HorizontalDivider()
             }
         }
     }
